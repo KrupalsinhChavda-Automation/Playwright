@@ -20,7 +20,7 @@
     <classes>
       <class name="testcases.OpenAccountTest">
         <methods>
-          <include name="openAccountTest" invocation-numbers="1 2"/>
+          <include name="openAccountTest" invocation-numbers="1"/>
           <include name="quite"/>
           <include name="setUp"/>
           <include name="quitPlaywright"/>
