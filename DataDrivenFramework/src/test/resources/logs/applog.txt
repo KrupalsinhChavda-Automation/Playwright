@@ -1,34 +1,51 @@
-INFO    2025-04-15 10:28:08,911 [main] testcases.OpenAccountTest  - Test Execution started !!!
-INFO    2025-04-15 10:28:08,912 [main] testcases.OpenAccountTest  - OR Properties file loaded.
-INFO    2025-04-15 10:28:13,239 [main] testcases.AddCustomerTest  - Launching Chrome browser
-INFO    2025-04-15 10:28:21,230 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 10:28:23,541 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 10:28:23,738 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
-INFO    2025-04-15 10:28:23,801 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
-INFO    2025-04-15 10:28:24,179 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Raman
-INFO    2025-04-15 10:28:24,232 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Arora
-INFO    2025-04-15 10:28:24,277 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :A234324
-INFO    2025-04-15 10:28:28,443 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
-INFO    2025-04-15 10:28:30,183 [main] testcases.AddCustomerTest  - Launching Firefox browser
-INFO    2025-04-15 10:28:35,931 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 10:28:36,178 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 10:28:36,317 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
-INFO    2025-04-15 10:28:36,461 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
-INFO    2025-04-15 10:28:36,592 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Tom
-INFO    2025-04-15 10:28:36,640 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Smith
-INFO    2025-04-15 10:28:36,694 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :D53434
-INFO    2025-04-15 10:28:40,830 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
-INFO    2025-04-15 10:28:44,051 [main] testcases.OpenAccountTest  - Launching Chrome browser
-INFO    2025-04-15 10:28:45,162 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 10:28:45,527 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 10:28:45,682 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
-INFO    2025-04-15 10:28:45,763 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Harry Potter
-INFO    2025-04-15 10:28:45,783 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Rupee
-INFO    2025-04-15 10:28:49,890 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
-INFO    2025-04-15 10:28:51,333 [main] testcases.OpenAccountTest  - Launching Firefox browser
-INFO    2025-04-15 10:28:55,431 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 10:28:55,655 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 10:28:55,983 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
-INFO    2025-04-15 10:28:56,121 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Hermoine Granger
-INFO    2025-04-15 10:28:56,146 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Pound
-INFO    2025-04-15 10:29:00,248 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
+INFO    2025-04-15 21:47:27,222 [main] testcases.OpenAccountTest  - Test Execution started !!!
+INFO    2025-04-15 21:47:27,227 [main] testcases.OpenAccountTest  - OR Properties file loaded.
+INFO    2025-04-15 21:47:32,191 [main] testcases.AddCustomerTest  - Launching Chrome browser
+INFO    2025-04-15 21:47:33,421 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 21:47:33,976 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 21:47:34,079 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
+INFO    2025-04-15 21:47:34,137 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
+INFO    2025-04-15 21:47:34,257 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Raman
+INFO    2025-04-15 21:47:34,290 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Arora
+INFO    2025-04-15 21:47:34,324 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :A234324
+INFO    2025-04-15 21:47:38,438 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
+INFO    2025-04-15 21:47:40,025 [main] testcases.AddCustomerTest  - Launching Firefox browser
+INFO    2025-04-15 21:47:48,582 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 21:47:49,078 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 21:47:49,305 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
+INFO    2025-04-15 21:47:49,498 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
+INFO    2025-04-15 21:47:50,470 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Tom
+INFO    2025-04-15 21:47:50,512 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Smith
+INFO    2025-04-15 21:47:50,550 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :D53434
+INFO    2025-04-15 21:47:57,518 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
+INFO    2025-04-15 21:48:23,956 [main] testcases.OpenAccountTest  - Launching Chrome browser
+INFO    2025-04-15 21:48:25,642 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 21:48:26,288 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 21:48:26,413 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
+INFO    2025-04-15 21:48:26,505 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Harry Potter
+INFO    2025-04-15 21:48:26,530 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Rupee
+INFO    2025-04-15 21:48:30,601 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
+INFO    2025-04-15 21:48:31,581 [main] testcases.OpenAccountTest  - Launching Firefox browser
+INFO    2025-04-15 21:48:35,758 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 21:48:42,348 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
+ERROR   2025-04-15 21:49:12,361 [main] testcases.OpenAccountTest  - Error while clicking on an Element : Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "button[ng-class='btnClass2']"
+  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "button[ng-class='btnClass2']"
+  selector resolved to visible <button ng-class="btnClass2" class="btn btn-lg tab" ng-c…>…</button>
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+    at ProgressController.run (C:\Users\krupa\AppData\Local\Temp\playwright-java-7461548838662857402\package\lib\server\progress.js:96:26)
+    at Frame.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-7461548838662857402\package\lib\server\frames.js:1197:23)
+    at FrameDispatcher.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-7461548838662857402\package\lib\server\dispatchers\frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (C:\Users\krupa\AppData\Local\Temp\playwright-java-7461548838662857402\package\lib\server\dispatchers\dispatcher.js:397:46)
+}
