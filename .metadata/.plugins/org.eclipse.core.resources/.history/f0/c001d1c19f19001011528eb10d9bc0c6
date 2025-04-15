@@ -1,0 +1,70 @@
+package testcases;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.microsoft.playwright.Browser;
+
+import base.BaseTest;
+import utilities.ExcelReader;
+
+public class AddCustomerTest extends BaseTest {
+
+	@Test(dataProvider = "getData")
+	public void addCustomerTest(String runmode, String firstname, String lastname, String postcode, String browser) {
+
+		Browser browser = getBrowser("chrome");
+		navigate(browser, "https://www.way2automation.com/angularjs-protractor/banking/#/login");
+
+		// 'Click on Add Login bank manager button'
+		click("btn_bml");
+
+		// 'Verify Login'
+		isElementPresent("btn_AddCustomer");
+
+		// 'Click on Add Customer button'
+		click("btn_AddCustomer");
+
+		// 'Enter value on firstName'
+		type("txt_firstName", "Testk");
+
+		// 'Enter value on lastName'
+		type("txt_lastName", "Test14");
+
+		// 'Enter value on postcode'
+		type("num_postCode", "1236");
+
+		// 'Click on Add customer button'
+		click("btn_AddCust");
+
+		page.locator("[type='submit']").click();
+
+		page.onDialog(dialog -> {
+			dialog.accept();
+			System.out.println(dialog.message());
+
+		});
+
+	}
+
+	@DataProvider
+	public Object[][] getData() {
+		
+		String sheetName = "addCustomerTest";
+		ExcelReader excel = new ExcelReader("./src/test/resources/testdata.xlsx");
+		
+		int rowNum = excel.getRowCount(sheetName);
+		int colNum = excel.getColumnCount(sheetName);
+		
+		Object [][] data =new  Object [rowNum-1][colNum];
+		
+		for(int rows = 2; rows<rowNum; rows++) {
+			
+			for(int cols = 0; cols<colNum; cols++) {
+				
+				data [rows-2][cols] = excel.getCellData(sheetName, cols, rows);
+			}
+		}
+
+	}
+}

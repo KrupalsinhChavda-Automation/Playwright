@@ -1,0 +1,19 @@
+searchBox = [name = 'q']
+
+
+
+
+#Bank Manager Login Test
+btn_bml= body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button
+
+#Add Customer Test
+btn_AddCustomer=//button[@ng-click='addCust()']
+txt_firstName=//input[@ng-model='fName']
+txt_lastName=//input[@ng-model='lName']
+num_postCode=//input[@ng-model='postCd']
+btn_AddCust=//button[text()='Add Customer']
+
+
+btn_AddCustlog = body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(3) > button
+drp_YourName=#userSelect
+btn_Login=#userSelect

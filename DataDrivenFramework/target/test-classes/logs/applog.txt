@@ -1,0 +1,48 @@
+INFO    2025-04-15 10:25:13,360 [main] testcases.OpenAccountTest  - Test Execution started !!!
+INFO    2025-04-15 10:25:13,362 [main] testcases.OpenAccountTest  - OR Properties file loaded.
+INFO    2025-04-15 10:25:19,374 [main] testcases.AddCustomerTest  - Launching Chrome browser
+INFO    2025-04-15 10:25:21,775 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 10:25:22,029 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 10:25:22,222 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
+INFO    2025-04-15 10:25:22,273 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
+INFO    2025-04-15 10:25:23,255 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Raman
+INFO    2025-04-15 10:25:23,522 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Arora
+INFO    2025-04-15 10:25:23,560 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :A234324
+INFO    2025-04-15 10:25:27,657 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
+INFO    2025-04-15 10:25:30,024 [main] testcases.AddCustomerTest  - Launching Firefox browser
+INFO    2025-04-15 10:25:40,425 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+ERROR   2025-04-15 10:26:10,450 [main] testcases.AddCustomerTest  - Error while clicking on an Element : Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button"
+  selector resolved to visible <button ng-click="manager()" class="btn btn-primary btn-…>Bank Manager Login</button>
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(5) > button"
+  selector resolved to visible <button ng-click="manager()" class="btn btn-primary btn-…>Bank Manager Login</button>
+attempting click action
+  waiting for element to be visible, enabled and stable
+============================================================
+    at ProgressController.run (C:\Users\krupa\AppData\Local\Temp\playwright-java-735094419993118199\package\lib\server\progress.js:96:26)
+    at Frame.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-735094419993118199\package\lib\server\frames.js:1197:23)
+    at FrameDispatcher.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-735094419993118199\package\lib\server\dispatchers\frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (C:\Users\krupa\AppData\Local\Temp\playwright-java-735094419993118199\package\lib\server\dispatchers\dispatcher.js:397:46)
+}
+INFO    2025-04-15 10:26:14,409 [main] testcases.OpenAccountTest  - Launching Chrome browser
+INFO    2025-04-15 10:26:15,858 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 10:26:16,162 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 10:26:16,603 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
+INFO    2025-04-15 10:26:16,742 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Harry Potter
+INFO    2025-04-15 10:26:16,765 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Rupee
+INFO    2025-04-15 10:26:21,076 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
+INFO    2025-04-15 10:26:22,625 [main] testcases.OpenAccountTest  - Launching Firefox browser
+INFO    2025-04-15 10:26:28,766 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2025-04-15 10:26:42,956 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
+INFO    2025-04-15 10:27:12,729 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
+INFO    2025-04-15 10:27:13,001 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Hermoine Granger
+INFO    2025-04-15 10:27:13,033 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Pound
+INFO    2025-04-15 10:27:17,132 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS

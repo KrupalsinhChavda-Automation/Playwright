@@ -1,0 +1,23 @@
+package testcases;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import com.microsoft.playwright.Browser;
+
+import base.BaseTest;
+
+public class LoginBankManagerTest extends BaseTest {
+	
+	
+	
+	@Test
+	public void loginBankManagerTest() {
+		
+		Browser browser = getBrowser("chrome");
+		navigate(browser, "https://www.way2automation.com/angularjs-protractor/banking/#/login");
+		click("btn_bml");
+		isElementPresent("btn_AddCustomer");
+	}
+
+}

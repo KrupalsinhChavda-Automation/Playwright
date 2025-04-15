@@ -1,0 +1,15 @@
+package testcases;
+
+import org.testng.annotations.Test;
+
+import utilities.DataProviders;
+
+public class OpenAccountTest {
+	
+	
+	@Test(dataProviderClass = DataProviders.class, dataProvider = "customerDP")
+	public void openAccountTest() {
+		
+	}
+
+}

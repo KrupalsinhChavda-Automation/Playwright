@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="0" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-15T04:58:08Z" name="Data Driven Framework" finished-at="2025-04-15T04:59:01Z" duration-ms="52570">
+    <groups>
+    </groups>
+    <test started-at="2025-04-15T04:58:08Z" name="Add Customer Test" finished-at="2025-04-15T04:58:42Z" duration-ms="33493">
+      <class name="testcases.AddCustomerTest">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:09Z" name="addCustomerTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:58:28Z" duration-ms="18957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=A234324, Runmode=Y, lastname=Arora, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:28Z" name="quite" finished-at="2025-04-15T04:58:29Z" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:29Z" name="addCustomerTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:58:29Z" duration-ms="104" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, postcode=D53434, Runmode=N, lastname=Arora, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : AddCustomerTest as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : AddCustomerTest as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:29Z" name="quite" finished-at="2025-04-15T04:58:29Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:29Z" name="addCustomerTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:58:40Z" duration-ms="11647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, postcode=D53434, Runmode=Y, lastname=Smith, firstname=Tom}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.AddCustomerTest@5b94b04d]" started-at="2025-04-15T04:58:40Z" name="quite" finished-at="2025-04-15T04:58:42Z" duration-ms="1458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2025-04-15T04:58:43Z" name="Open Account Test" finished-at="2025-04-15T04:59:01Z" duration-ms="18388">
+      <class name="testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:08Z" name="setUp" finished-at="2025-04-15T04:58:08Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:43Z" name="openAccountTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:58:49Z" duration-ms="6709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, browser=chrome, Runmode=Y, customer=Harry Potter}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:49Z" name="quite" finished-at="2025-04-15T04:58:50Z" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:50Z" name="openAccountTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:58:50Z" duration-ms="60" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Dollar, browser=chrome, Runmode=N, customer=Ron Weasly}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : OpenAccountTest as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : OpenAccountTest as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:50Z" name="quite" finished-at="2025-04-15T04:58:50Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:58:50Z" name="openAccountTest" data-provider="bankManagerDP" finished-at="2025-04-15T04:59:00Z" duration-ms="9704" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Pound, browser=firefox, Runmode=Y, customer=Hermoine Granger}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:59:00Z" name="quite" finished-at="2025-04-15T04:59:01Z" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method is-config="true" signature="quitPlaywright()[pri:0, instance:testcases.OpenAccountTest@5f8edcc5]" started-at="2025-04-15T04:59:01Z" name="quitPlaywright" finished-at="2025-04-15T04:59:01Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitPlaywright -->
+      </class> <!-- testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+  </suite> <!-- Data Driven Framework -->
+</testng-results>

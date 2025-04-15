@@ -1,0 +1,432 @@
+!SESSION 2025-04-15 07:25:05.787 -----------------------------------------------
+eclipse.buildId=4.35.0.20250306-0811
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file K:\Krupal_QA\QA_Automation\PlaywrightLearning\.metadata\.bak_0.log
+Created Time: 2025-04-15 09:34:45.362
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 09:34:45.362
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52801 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 52801 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:55:34.971
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:55:34.975
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:58:56.846
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:58:56.852
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:59:29.545
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:59:29.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:59:32.075
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 09:59:32.080
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:11.965
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:11.970
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:25.631
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:25.633
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:37.014
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:37.016
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:47.176
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:00:47.179
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:01:25.098
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:01:25.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:04:24.410
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:04:24.414
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:01.743
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:01.745
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:04.583
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:04.587
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:12.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:12.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:22.955
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:22.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:40.120
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:40.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:44.389
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:05:44.391
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:08.722
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:08.725
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:27.962
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:27.966
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:57.143
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:06:57.147
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:07:15.672
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:07:15.674
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:08:38.068
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:08:38.074
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:08:52.811
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53322 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53322 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:10:14.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:10:14.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:10:28.278
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53411 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53411 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:12:12.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:12:12.997
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:12:19.976
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53524 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53524 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:19.756
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:19.760
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:20.948
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:20.951
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:14:28.095
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53630 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53630 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:40.215
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:14:40.218
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:15:36.105
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53717 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53717 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.testng.eclipse 1 0 2025-04-15 10:17:30.800
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53873 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+java -ea -classpath C:\Users\krupa\eclipse\java-2025-03\eclipse\configuration\org.eclipse.osgi\525\0\.cp\lib\testng-remote.jar:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\test-classes:K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\target\classes:C:\Users\krupa\.m2\repository\org\apache\poi\poi\4.1.1\poi-4.1.1.jar:C:\Users\krupa\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar:C:\Users\krupa\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar:C:\Users\krupa\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar:C:\Users\krupa\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar:C:\Users\krupa\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar:C:\Users\krupa\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar:C:\Users\krupa\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar:C:\Users\krupa\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:C:\Users\krupa\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar:C:\Users\krupa\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar:C:\Users\krupa\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar:C:\Users\krupa\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar:C:\Users\krupa\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar:C:\Users\krupa\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar:C:\Users\krupa\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar:C:\Users\krupa\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar:C:\Users\krupa\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar:C:\Users\krupa\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar:C:\Users\krupa\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar:C:\Users\krupa\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\krupa\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\krupa\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\krupa\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\krupa\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar:C:\Users\krupa\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\krupa\.m2\repository\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar:C:\Users\krupa\.m2\repository\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar:C:\Users\krupa\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\playwright\1.25.0\playwright-1.25.0.jar:C:\Users\krupa\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver\1.25.0\driver-1.25.0.jar:C:\Users\krupa\.m2\repository\com\microsoft\playwright\driver-bundle\1.25.0\driver-bundle-1.25.0.jar org.testng.remote.RemoteTestNG -serport 53873 -protocol json -d K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\test-output K:\Krupal_QA\QA_Automation\PlaywrightLearning\DataDrivenFramework\src\test\resources\runner\BankManaging.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:22:23.907
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:22:23.912
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:22:57.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:22:57.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:23:00.201
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:23:00.209
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-15 10:24:52.656
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1582)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:241)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:127)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2866)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:1054)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-04-15 10:24:52.658
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1582)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:241)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:127)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2866)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:1054)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2025-04-15 10:24:53.932
+!MESSAGE Could not read pom.xml
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:245)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	... 24 more
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1582)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:241)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:127)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2866)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:1054)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 0 2025-04-15 10:24:53.932
+!MESSAGE Could not read pom.xml
+!STACK 0
+org.apache.maven.model.io.ModelParseException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:96)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:74)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:243)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:591)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:491)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:370)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:322)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:146)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:84)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:458)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:339)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:278)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:83)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:192)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup < (position: START_TAG seen ...<suiteXmlFiles>\r\n\t\t\t\t\t\t<<... @28:9) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1582)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1375)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:241)
+	at org.codehaus.plexus.util.xml.Xpp3DomBuilder.build(Xpp3DomBuilder.java:127)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parsePlugin(MavenXpp3Reader.java:2866)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseBuild(MavenXpp3Reader.java:1054)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2364)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:623)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:654)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:93)
+	... 26 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:24:56.558
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:24:56.566
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:24:56.837
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-04-15 10:24:56.840
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

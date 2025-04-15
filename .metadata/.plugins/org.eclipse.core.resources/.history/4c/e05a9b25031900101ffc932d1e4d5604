@@ -1,0 +1,117 @@
+package base;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeSuite;
+
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserType;
+import com.microsoft.playwright.Page;
+import com.microsoft.playwright.Playwright;
+
+import extentlisteners.ExtentListeners;
+
+public class BaseTest {
+
+	private Playwright playwright;
+	public Browser browser;
+	public Page page;
+	private static Properties OR = new Properties();
+	private static Properties config = new Properties();
+	private static FileInputStream fis;
+	private Logger log = Logger.getLogger(this.getClass());
+
+	@BeforeSuite
+	public void setUp() {
+
+		PropertyConfigurator.configure("./src/test/resources/properties/log4j.properties");
+		log.info("Hey Krupal Test Execution started!!!");
+
+		try {
+			fis = new FileInputStream("./src/test/resources/properties/OR.properties");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			OR.load(fis);
+			log.info("OR Properties files are loaded.");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+	public void click(String LocatorKey) {
+		try {
+			page.locator(OR.getProperty(LocatorKey)).click();
+			log.info("Clicking on the element : " + LocatorKey);
+			ExtentListeners.test.info("Clicking on the element : " + LocatorKey);
+		} catch (Throwable t) {
+
+			log.error("Error while clicking on the: " + t.getMessage());
+			ExtentListeners.test.fail("Error while clicking on the: " + t.getMessage());
+			Assert.fail(t.getMessage());
+		}
+	}
+	
+	public void type(String LocatorKey, String value) {
+		try {
+			page.locator(OR.getProperty(LocatorKey)).fill(value);
+			log.info("Typing in the element : " + LocatorKey);
+			ExtentListeners.test.info("Typing in the element : " + LocatorKey);
+		} catch (Throwable t) {
+
+			log.error("Error while typing in the: " + t.getMessage());
+			ExtentListeners.test.fail("Error while typing in the: " + t.getMessage());
+			Assert.fail(t.getMessage());
+		}
+	}
+
+	public Browser getBrowser(String browserName) {
+
+		playwright = Playwright.create();
+		
+		switch (browserName) {
+
+		case "chrome":
+			log.info("Launching chrome browser");
+			return playwright.chromium()
+					.launch(new BrowserType.LaunchOptions().setHeadless(false).setChannel("chrome"));
+		case "headless":
+			log.info("Launching headless Mode");
+			return playwright.chromium().launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("chrome"));
+		case "firefox":
+			log.info("Launching firefox browser");
+			return playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(true).setChannel("firefox"));
+		default:
+			throw new IllegalArgumentException();
+		}
+	}
+
+	public void navigate(Browser browser , String URL) {
+		
+	
+		
+		Page page = browser.newPage();
+		this.browser = browser;
+		page.navigate(URL);
+		log.info("Navigated to URL: " + URL);
+	}
+
+	@AfterMethod
+	public void quite() {
+
+		browser.close();
+//		page.close();
+		playwright.close();
+	}
+}

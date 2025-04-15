@@ -1,0 +1,16 @@
+package testcases;
+
+import org.testng.annotations.Test;
+
+import base.BaseTest;
+
+public class LoginTest extends BaseTest  {
+	
+	@Test
+	public void dologin() {
+		
+		getBrowser("chrome");
+		navigate("http://google.com");
+	}
+
+}
