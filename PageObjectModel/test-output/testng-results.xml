@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="5" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T12:04:09 IST" name="Suite" finished-at="2025-04-19T12:05:03 IST" duration-ms="53957">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T12:04:09 IST" name="Find New Car Test" finished-at="2025-04-19T12:04:18 IST" duration-ms="9005">
+      <class name="testcases.FindNewCarTest">
+        <test-method signature="findNewCarTest(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:09 IST" name="findNewCarTest" data-provider="dp" finished-at="2025-04-19T12:04:17 IST" duration-ms="8095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y, carTitle=Kia Cars, carBrand=Kia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCarTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:17 IST" name="quite" finished-at="2025-04-19T12:04:17 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="findNewCarTest(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:17 IST" name="findNewCarTest" data-provider="dp" finished-at="2025-04-19T12:04:17 IST" duration-ms="55" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=N, carTitle=Toyota Cars, carBrand=Toyota}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : findNewCarTest as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : findNewCarTest as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.FindNewCarTest.findNewCarTest(FindNewCarTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCarTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:17 IST" name="quite" finished-at="2025-04-19T12:04:18 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="findNewCarTest(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:18 IST" name="findNewCarTest" data-provider="dp" finished-at="2025-04-19T12:04:18 IST" duration-ms="44" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, Runmode=N, carTitle=BMW Cars, carBrand=BMW}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : findNewCarTest as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : findNewCarTest as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.FindNewCarTest.findNewCarTest(FindNewCarTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCarTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:18 IST" name="quite" finished-at="2025-04-19T12:04:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="findNewCarTest(java.util.Hashtable)[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:18 IST" name="findNewCarTest" data-provider="dp" finished-at="2025-04-19T12:04:18 IST" duration-ms="41" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, Runmode=N, carTitle=Hyundai Car, carBrand=Hyundai}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : findNewCarTest as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : findNewCarTest as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.FindNewCarTest.findNewCarTest(FindNewCarTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNewCarTest -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.FindNewCarTest@2b40ff9c]" started-at="2025-04-19T12:04:18 IST" name="quite" finished-at="2025-04-19T12:04:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+      </class> <!-- testcases.FindNewCarTest -->
+    </test> <!-- Find New Car Test -->
+    <test started-at="2025-04-19T12:04:18 IST" name="New Cars Name And Price" finished-at="2025-04-19T12:05:03 IST" duration-ms="44597">
+      <class name="testcases.NewCarsNameAndPrice">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:09 IST" name="setUp" finished-at="2025-04-19T12:04:09 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newCarsNameAndPrice(java.util.Hashtable)[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:18 IST" name="newCarsNameAndPrice" data-provider="dp" finished-at="2025-04-19T12:04:25 IST" duration-ms="7431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y, carTitle=Kia Cars, carBrand=Kia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarsNameAndPrice -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:25 IST" name="quite" finished-at="2025-04-19T12:04:26 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newCarsNameAndPrice(java.util.Hashtable)[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:26 IST" name="newCarsNameAndPrice" data-provider="dp" finished-at="2025-04-19T12:04:33 IST" duration-ms="6855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=chrome, Runmode=Y, carTitle=Toyota Cars, carBrand=Toyota}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarsNameAndPrice -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:33 IST" name="quite" finished-at="2025-04-19T12:04:33 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newCarsNameAndPrice(java.util.Hashtable)[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:33 IST" name="newCarsNameAndPrice" data-provider="dp" finished-at="2025-04-19T12:04:46 IST" duration-ms="12970" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, Runmode=Y, carTitle=BMW Cars, carBrand=BMW}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarsNameAndPrice -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:46 IST" name="quite" finished-at="2025-04-19T12:04:47 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newCarsNameAndPrice(java.util.Hashtable)[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:04:47 IST" name="newCarsNameAndPrice" data-provider="dp" finished-at="2025-04-19T12:05:02 IST" duration-ms="14813" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{browser=firefox, Runmode=Y, carTitle=Hyundai Car, carBrand=Hyundai}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCarsNameAndPrice -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:05:02 IST" name="quite" finished-at="2025-04-19T12:05:03 IST" duration-ms="693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method is-config="true" signature="quitPlaywright()[pri:0, instance:testcases.NewCarsNameAndPrice@c430e6c]" started-at="2025-04-19T12:05:03 IST" name="quitPlaywright" finished-at="2025-04-19T12:05:03 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitPlaywright -->
+      </class> <!-- testcases.NewCarsNameAndPrice -->
+    </test> <!-- New Cars Name And Price -->
+  </suite> <!-- Suite -->
+</testng-results>
