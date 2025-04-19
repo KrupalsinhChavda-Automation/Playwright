@@ -1,0 +1,34 @@
+INFO    2025-04-19 19:30:30,046 [main] testcases.NewUserSignup  - Test Execution started !!!
+INFO    2025-04-19 19:30:30,046 [main] testcases.NewUserSignup  - OR Properties file loaded.
+INFO    2025-04-19 19:30:34,698 [main] testcases.NewUserSignup  - Launching Chrome browser
+INFO    2025-04-19 19:30:39,131 [main] testcases.NewUserSignup  - Navigated to : https://www.automationexercise.com/
+INFO    2025-04-19 19:30:39,610 [main] testcases.NewUserSignup  - Clicking on an Element : btn_signup-Login
+INFO    2025-04-19 19:30:39,651 [main] testcases.NewUserSignup  - Typing in an Element : txt_name and entered the value as :TestK1236
+INFO    2025-04-19 19:30:39,680 [main] testcases.NewUserSignup  - Typing in an Element : txt_signupMail and entered the value as :TestK@1236.com
+INFO    2025-04-19 19:30:40,072 [main] testcases.NewUserSignup  - Clicking on an Element : btn_signUp
+INFO    2025-04-19 19:30:40,164 [main] testcases.NewUserSignup  - Clicking on an Element : radiobtn_title
+INFO    2025-04-19 19:30:40,178 [main] testcases.NewUserSignup  - Typing in an Element : txt_Password and entered the value as :TestK@1236
+INFO    2025-04-19 19:30:40,201 [main] testcases.NewUserSignup  - Typing in an Element : txt_firstName and entered the value as :Testk
+INFO    2025-04-19 19:30:40,234 [main] testcases.NewUserSignup  - Typing in an Element : txt_lastName and entered the value as :1236.0
+INFO    2025-04-19 19:30:40,265 [main] testcases.NewUserSignup  - Typing in an Element : txt_address and entered the value as :King Street
+INFO    2025-04-19 19:30:40,284 [main] testcases.NewUserSignup  - Selecting an Element : drp_country and selected the value as :Australia
+INFO    2025-04-19 19:30:40,312 [main] testcases.NewUserSignup  - Typing in an Element : txt_state and entered the value as :NSW
+INFO    2025-04-19 19:30:40,341 [main] testcases.NewUserSignup  - Typing in an Element : txt_city and entered the value as :Sydney
+INFO    2025-04-19 19:30:40,363 [main] testcases.NewUserSignup  - Typing in an Element : num_zipCode and entered the value as :2000.0
+INFO    2025-04-19 19:30:40,394 [main] testcases.NewUserSignup  - Typing in an Element : num_MobNumber and entered the value as :1.23456789E9
+INFO    2025-04-19 19:30:40,432 [main] testcases.NewUserSignup  - Clicking on an Element : btn_createAccount
+ERROR   2025-04-19 19:31:11,188 [main] testcases.NewUserSignup  - Error while clicking on an Element : Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//a[normalize-space()='Delete Account']"
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//a[normalize-space()='Delete Account']"
+============================================================
+    at ProgressController.run (C:\Users\krupa\AppData\Local\Temp\playwright-java-14046083983346980687\package\lib\server\progress.js:96:26)
+    at Frame.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-14046083983346980687\package\lib\server\frames.js:1197:23)
+    at FrameDispatcher.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-14046083983346980687\package\lib\server\dispatchers\frameDispatcher.js:173:30)
+    at DispatcherConnection.dispatch (C:\Users\krupa\AppData\Local\Temp\playwright-java-14046083983346980687\package\lib\server\dispatchers\dispatcher.js:397:46)
+}

@@ -1,0 +1,21 @@
+INFO    2025-04-19 19:40:38,138 [main] testcases.NewUserSignup  - Test Execution started !!!
+INFO    2025-04-19 19:40:38,138 [main] testcases.NewUserSignup  - OR Properties file loaded.
+INFO    2025-04-19 19:40:40,672 [main] testcases.NewUserSignup  - Launching Chrome browser
+INFO    2025-04-19 19:40:45,905 [main] testcases.NewUserSignup  - Navigated to : https://www.automationexercise.com/
+INFO    2025-04-19 19:40:46,776 [main] testcases.NewUserSignup  - Clicking on an Element : btn_signup-Login
+INFO    2025-04-19 19:40:46,902 [main] testcases.NewUserSignup  - Typing in an Element : txt_name and entered the value as :TestK1236
+INFO    2025-04-19 19:40:46,959 [main] testcases.NewUserSignup  - Typing in an Element : txt_signupMail and entered the value as :TestK@1236.com
+INFO    2025-04-19 19:40:47,369 [main] testcases.NewUserSignup  - Clicking on an Element : btn_signUp
+INFO    2025-04-19 19:40:47,542 [main] testcases.NewUserSignup  - Clicking on an Element : radiobtn_title
+INFO    2025-04-19 19:40:47,571 [main] testcases.NewUserSignup  - Typing in an Element : txt_Password and entered the value as :TestK@1236
+INFO    2025-04-19 19:40:47,626 [main] testcases.NewUserSignup  - Typing in an Element : txt_firstName and entered the value as :Testk
+INFO    2025-04-19 19:40:47,697 [main] testcases.NewUserSignup  - Typing in an Element : txt_lastName and entered the value as :1236
+INFO    2025-04-19 19:40:47,757 [main] testcases.NewUserSignup  - Typing in an Element : txt_address and entered the value as :King Street
+INFO    2025-04-19 19:40:47,787 [main] testcases.NewUserSignup  - Selecting an Element : drp_country and selected the value as :Australia
+INFO    2025-04-19 19:40:47,843 [main] testcases.NewUserSignup  - Typing in an Element : txt_state and entered the value as :NSW
+INFO    2025-04-19 19:40:47,912 [main] testcases.NewUserSignup  - Typing in an Element : txt_city and entered the value as :Sydney
+INFO    2025-04-19 19:40:47,970 [main] testcases.NewUserSignup  - Typing in an Element : num_zipCode and entered the value as :2000
+INFO    2025-04-19 19:40:48,021 [main] testcases.NewUserSignup  - Typing in an Element : num_MobNumber and entered the value as :1234567890
+INFO    2025-04-19 19:40:48,862 [main] testcases.NewUserSignup  - Clicking on an Element : btn_createAccount
+INFO    2025-04-19 19:40:49,406 [main] testcases.NewUserSignup  - Clicking on an Element : btn_Continue
+INFO    2025-04-19 19:40:50,246 [main] testcases.NewUserSignup  - Clicking on an Element : btn_deleteAccount

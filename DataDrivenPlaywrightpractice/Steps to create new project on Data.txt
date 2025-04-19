@@ -1,0 +1,47 @@
+Steps to create new project on Data driven(Playwright):
+1. Create new Maven project
+2. Add all the dependancies on the POM.xml file.
+3. src/test/java --> create all packages
+	base
+	rough	
+	testcases
+	utilities
+	Extent Listeners -- add while creating BaseTest class
+4. src/test/resources
+	excel
+	properties --> OR.properties, log4.properties - Add log4j code to it
+	runner
+5. Create main heart of the project BaseTest class
+	/*
+	 * Playwright instance 
+	 * 
+	 * Browser instance 
+	 * 
+	 * Page instance 
+	 * 
+	 * Set up properties file configs
+	 * 
+	 * Setup logger class for logs 
+	 * 
+	 * (Playwright specific) thread 
+	 * 
+	 * setup load properties 
+	 * 
+	 * file with @beforesuites (setup)
+	 * 
+	 * setup browsers instance 
+	 * 
+	 * setup Navigate method
+	 * 
+	 * Setup all the keywords here
+	 * 
+	 * Tear Down (AfterMethod/AfterTestsuites)
+	 */
+6. Create Constant file for Global Variables
+like url, excel variables
+
+7. Now Creates the test cases and always run the test case from runner> testing.xml
+	Note: need to add listener to testing.xml so 
+8. Create runner file by using test-ng setup and Run the test cases  
+9. Set up data binding with excel reader datautil and dataprovider class
+

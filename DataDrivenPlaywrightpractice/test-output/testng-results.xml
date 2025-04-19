@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="1" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-19T19:40:38 IST" name="Suite" finished-at="2025-04-19T19:40:51 IST" duration-ms="13658">
+    <groups>
+    </groups>
+    <test started-at="2025-04-19T19:40:38 IST" name="Add new Users" finished-at="2025-04-19T19:40:51 IST" duration-ms="13658">
+      <class name="testcases.NewUserSignup">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:38 IST" name="setUp" finished-at="2025-04-19T19:40:38 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:38 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:50 IST" duration-ms="11808" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=Y, Zipcode=2000, Name=TestK1236, browser=chrome, Address=King Street, MobileNumber=1234567890, Password=TestK@1236, LastName=1236, City=Sydney, FirstName=Testk, State=NSW, EmailAddress=TestK@1236.com, Country=Australia}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:50 IST" name="quite" finished-at="2025-04-19T19:40:50 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:50 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="156" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=2900, Name=TestK1237, browser=firefox, Address=123 Main Street, MobileNumber=1478965230, Password=TestK@1237, LastName=1237, City=Melburn, FirstName=Testk, State=VIC, EmailAddress=TestK@1237.com, Country=Australia}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="115" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=4034, Name=TestK1238, browser=chrome, Address=Unit 16, MobileNumber=1236123612, Password=TestK@1238, LastName=1238, City=Carseldine, FirstName=Testk, State=QLD, EmailAddress=TestK@1238.com, Country=India}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="114" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=4000, Name=TestK1239, browser=firefox, Address=888 James Road, MobileNumber=1213121312, Password=TestK@1239, LastName=1239, City=Brisbane, FirstName=Testk, State=ACT, EmailAddress=TestK@1239.com, Country=India}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="93" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=2000, Name=TestK1240, browser=chrome, Address=King Street, MobileNumber=1234567890, Password=TestK@1240, LastName=1240, City=Sydney, FirstName=Testk, State=NSW, EmailAddress=TestK@1240.com, Country=Canada}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="113" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=2900, Name=TestK1241, browser=firefox, Address=123 Main Street, MobileNumber=1478965230, Password=TestK@1241, LastName=1241, City=Melburn, FirstName=Testk, State=VIC, EmailAddress=TestK@1241.com, Country=Canada}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="108" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=4034, Name=TestK1242, browser=chrome, Address=Unit 16, MobileNumber=1236123612, Password=TestK@1242, LastName=1242, City=Carseldine, FirstName=Testk, State=QLD, EmailAddress=TestK@1242.com, Country=United States}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method signature="newUserSignup(java.util.Hashtable)[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="newUserSignup" data-provider="dp2" finished-at="2025-04-19T19:40:51 IST" duration-ms="96" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Runmode=N, Zipcode=4000, Name=TestK1243, browser=firefox, Address=888 James Road, MobileNumber=1213121312, Password=TestK@1243, LastName=1243, City=Brisbane, FirstName=Testk, State=ACT, EmailAddress=TestK@1243.com, Country=United States}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test : newUserSignup as the Run mode to Data set is NO]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test : newUserSignup as the Run mode to Data set is NO
+at utilities.DataUtil.checkExecution(DataUtil.java:32)
+at testcases.NewUserSignup.newUserSignup(NewUserSignup.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newUserSignup -->
+        <test-method is-config="true" signature="quite()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:51 IST" name="quite" finished-at="2025-04-19T19:40:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quite -->
+        <test-method is-config="true" signature="quitPlaywright()[pri:0, instance:testcases.NewUserSignup@24569dba]" started-at="2025-04-19T19:40:52 IST" name="quitPlaywright" finished-at="2025-04-19T19:40:52 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitPlaywright -->
+      </class> <!-- testcases.NewUserSignup -->
+    </test> <!-- Add new Users -->
+  </suite> <!-- Suite -->
+</testng-results>
