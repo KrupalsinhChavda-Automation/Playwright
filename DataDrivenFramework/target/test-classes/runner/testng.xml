@@ -12,7 +12,7 @@
 	
 	<test name="Login Test">
 		<classes>
-			<class name="testcases.LoginTest" />
+			<class name="rough.LoginTest" />
 
 		</classes>
 	</test>

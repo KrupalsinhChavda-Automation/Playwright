@@ -1,34 +1,8 @@
-INFO    2025-04-15 22:07:25,408 [main] testcases.OpenAccountTest  - Test Execution started !!!
-INFO    2025-04-15 22:07:25,409 [main] testcases.OpenAccountTest  - OR Properties file loaded.
-INFO    2025-04-15 22:07:28,254 [main] testcases.AddCustomerTest  - Launching Chrome browser
-INFO    2025-04-15 22:07:29,343 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 22:07:29,703 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 22:07:29,937 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
-INFO    2025-04-15 22:07:29,963 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
-INFO    2025-04-15 22:07:30,125 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Raman
-INFO    2025-04-15 22:07:30,149 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Arora
-INFO    2025-04-15 22:07:30,169 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :A234324
-INFO    2025-04-15 22:07:34,242 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
-INFO    2025-04-15 22:07:35,335 [main] testcases.AddCustomerTest  - Launching Firefox browser
-INFO    2025-04-15 22:07:38,806 [main] testcases.AddCustomerTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 22:07:39,079 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 22:07:39,299 [main] testcases.AddCustomerTest  - Finding an Element : btn_AddCustomer
-INFO    2025-04-15 22:07:39,368 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCustomer
-INFO    2025-04-15 22:07:39,478 [main] testcases.AddCustomerTest  - Typing in an Element : txt_firstName and entered the value as :Tom
-INFO    2025-04-15 22:07:39,526 [main] testcases.AddCustomerTest  - Typing in an Element : txt_lastName and entered the value as :Smith
-INFO    2025-04-15 22:07:39,601 [main] testcases.AddCustomerTest  - Typing in an Element : num_postCode and entered the value as :D53434
-INFO    2025-04-15 22:07:43,748 [main] testcases.AddCustomerTest  - Clicking on an Element : btn_AddCust
-INFO    2025-04-15 22:07:46,214 [main] testcases.OpenAccountTest  - Launching Chrome browser
-INFO    2025-04-15 22:07:47,256 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 22:07:47,750 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 22:07:47,845 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
-INFO    2025-04-15 22:07:47,928 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Harry Potter
-INFO    2025-04-15 22:07:47,958 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Rupee
-INFO    2025-04-15 22:07:52,008 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
-INFO    2025-04-15 22:07:53,054 [main] testcases.OpenAccountTest  - Launching Firefox browser
-INFO    2025-04-15 22:07:56,699 [main] testcases.OpenAccountTest  - Navigated to : https://www.way2automation.com/angularjs-protractor/banking/#/login
-INFO    2025-04-15 22:07:56,908 [main] testcases.OpenAccountTest  - Clicking on an Element : btn_bml
-INFO    2025-04-15 22:07:57,164 [main] testcases.OpenAccountTest  - Clicking on an Element : openaccount_CSS
-INFO    2025-04-15 22:07:57,329 [main] testcases.OpenAccountTest  - Selecting an Element : customer_CSS and selected the value as :Hermoine Granger
-INFO    2025-04-15 22:07:57,359 [main] testcases.OpenAccountTest  - Selecting an Element : currency_CSS and selected the value as :Pound
-INFO    2025-04-15 22:08:01,466 [main] testcases.OpenAccountTest  - Clicking on an Element : process_CSS
+INFO    2025-04-18 20:13:23,266 [main] rough.LoginTest  - Test Execution started !!!
+INFO    2025-04-18 20:13:23,266 [main] rough.LoginTest  - OR Properties file loaded.
+INFO    2025-04-18 20:13:25,715 [main] rough.LoginTest  - Launching Chrome browser
+INFO    2025-04-18 20:13:28,306 [main] rough.LoginTest  - Navigated to : http://google.com
+INFO    2025-04-18 20:13:28,358 [main] rough.LoginTest  - Typing in an Element : searchBox and entered the value as :Hello Playwright
+INFO    2025-04-18 20:13:29,121 [main] rough.LoginTest  - Launching Firefox browser
+INFO    2025-04-18 20:13:34,944 [main] rough.LoginTest  - Navigated to : http://google.com
+INFO    2025-04-18 20:13:35,063 [main] rough.LoginTest  - Typing in an Element : searchBox and entered the value as :Hello Playwright

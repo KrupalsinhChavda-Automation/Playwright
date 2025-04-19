@@ -9,47 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Data Driven Framework</th></tr>
-<tr><td><a href="#t0">Add Customer Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">72,730</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Open Account Test</a></td><td class="num">2</td><td class="num attn">1</td><td class="num">0</td><td class="num">65,919</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">3</th><th class="num attn">2</th><th class="num attn">1</th><th class="num">138,649</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Login Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">13,138</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Data Driven Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Add Customer Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m0">addCustomerTest</a></td><td rowspan="1">1744692473883</td><td rowspan="1">49573</td></tr><tr><th colspan="4">Add Customer Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">addCustomerTest</a></td><td rowspan="1">1744692473727</td><td rowspan="1">144</td></tr><tr><th colspan="4">Add Customer Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m2">addCustomerTest</a></td><td rowspan="1">1744692453080</td><td rowspan="1">19938</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Open Account Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">testcases.OpenAccountTest</td><td><a href="#m3">openAccountTest</a></td><td rowspan="1">1744692537860</td><td rowspan="1">74</td></tr><tr><th colspan="4">Open Account Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">testcases.OpenAccountTest</td><td><a href="#m4">openAccountTest</a></td><td rowspan="2">1744692525865</td><td rowspan="2">11303</td></tr><tr class="passedeven"><td><a href="#m5">openAccountTest</a></td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Data Driven Framework</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">rough.LoginTest</td><td><a href="#m0">dologin</a></td><td rowspan="1">1744987403277</td><td rowspan="1">5088</td></tr><tr class="passedeven"><td><a href="#m1">goToGmail</a></td><td rowspan="1">1744987408560</td><td rowspan="1">6504</td></tr></tbody>
 </table>
-<h2>Add Customer Test</h2><h3 id="m0">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{browser=firefox, postcode=D53434, Runmode=Y, lastname=Smith, firstname=Tom}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Error {
-  message=&apos;Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector &quot;body &gt; div.ng-scope &gt; div &gt; div.ng-scope &gt; div &gt; div.borderM.box.padT20 &gt; div:nth-child(5) &gt; button&quot;
-  selector resolved to visible &lt;button ng-click=&quot;manager()&quot; class=&quot;btn btn-primary btn-…&gt;Bank Manager Login&lt;/button&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-  name=&apos;TimeoutError
-  stack=&apos;TimeoutError: Timeout 30000ms exceeded.
-=========================== logs ===========================
-waiting for selector &quot;body &gt; div.ng-scope &gt; div &gt; div.ng-scope &gt; div &gt; div.borderM.box.padT20 &gt; div:nth-child(5) &gt; button&quot;
-  selector resolved to visible &lt;button ng-click=&quot;manager()&quot; class=&quot;btn btn-primary btn-…&gt;Bank Manager Login&lt;/button&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-============================================================
-    at ProgressController.run (C:\Users\krupa\AppData\Local\Temp\playwright-java-12900900930157200462\package\lib\server\progress.js:96:26)
-    at Frame.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-12900900930157200462\package\lib\server\frames.js:1197:23)
-    at FrameDispatcher.click (C:\Users\krupa\AppData\Local\Temp\playwright-java-12900900930157200462\package\lib\server\dispatchers\frameDispatcher.js:173:30)
-    at DispatcherConnection.dispatch (C:\Users\krupa\AppData\Local\Temp\playwright-java-12900900930157200462\package\lib\server\dispatchers\dispatcher.js:397:46)
-}
-	at base.BaseTest.click(BaseTest.java:86)
-	at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:27)
-... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{browser=chrome, postcode=D53434, Runmode=N, lastname=Arora, firstname=Rahul}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test : AddCustomerTest as the Run mode to Data set is NO
-	at utilities.DataUtil.checkExecution(DataUtil.java:32)
-	at testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:21)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.AddCustomerTest#addCustomerTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{browser=chrome, postcode=A234324, Runmode=Y, lastname=Arora, firstname=Raman}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Open Account Test</h2><h3 id="m3">testcases.OpenAccountTest#openAccountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{currency=Dollar, browser=chrome, Runmode=N, customer=Ron Weasly}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skipping the test : OpenAccountTest as the Run mode to Data set is NO
-	at utilities.DataUtil.checkExecution(DataUtil.java:32)
-	at testcases.OpenAccountTest.openAccountTest(OpenAccountTest.java:20)
-... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases.OpenAccountTest#openAccountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{currency=Rupee, browser=chrome, Runmode=Y, customer=Harry Potter}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testcases.OpenAccountTest#openAccountTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{currency=Pound, browser=firefox, Runmode=Y, customer=Hermoine Granger}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Test</h2><h3 id="m0">rough.LoginTest#dologin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">rough.LoginTest#goToGmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
