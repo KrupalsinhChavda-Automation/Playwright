@@ -1,0 +1,7 @@
+INFO    2025-04-24 23:17:34,169 [main] testcases.UserSignupTest  - Test Execution started !!!
+INFO    2025-04-24 23:17:36,887 [main] testcases.LoginTest  - Launching Chrome browser
+INFO    2025-04-24 23:17:41,005 [main] testcases.LoginTest  - Navigated to : https://www.automationexercise.com/
+INFO    2025-04-24 23:17:43,226 [main] testcases.LoginTest  - Launching Firefox browser
+INFO    2025-04-24 23:17:50,471 [main] testcases.LoginTest  - Navigated to : https://www.automationexercise.com/
+INFO    2025-04-24 23:17:56,748 [main] testcases.UserSignupTest  - Launching Chrome browser
+INFO    2025-04-24 23:18:04,331 [main] testcases.UserSignupTest  - Navigated to : https://www.automationexercise.com/
